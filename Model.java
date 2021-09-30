@@ -17,8 +17,9 @@ public class Model {
             finalTime = System.nanoTime();
             double duration= (double) (finalTime-initialTime)/1000000000;
             System.out.println("Time taken for sort: "+duration+"s");
-        }catch (NullPointerException npe) {
+        }catch (NullPointerException|StackOverflowError npe) {
             System.err.println(npe+" invalid option was chosen for the preferred sorting method. Array was not sorted.");
+            System.exit(0);
         }
         return arr;
     }
