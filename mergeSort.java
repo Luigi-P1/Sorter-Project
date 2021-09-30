@@ -1,7 +1,8 @@
-package com.sparta.lp.sortproject;
+package com.sparta.lp.sortproject.SorterProject;
 
-public class mergeSort extends sort{
-    static int[] mergeSort(int[] array) {
+public class MergeSort extends SortFactory {
+    @Override
+     public int[] GetSort(int[] array) {
         if (array.length == 1) {
             return array;
         } else {
@@ -14,13 +15,13 @@ public class mergeSort extends sort{
             for (int i = len; i < array.length; i++) {
                 arraytwo[i - len] = array[i];
             }
-            arrayone = mergeSort(arrayone);
-            arraytwo = mergeSort(arraytwo);
+            arrayone = GetSort(arrayone);
+            arraytwo = GetSort(arraytwo);
             return merge(arrayone,arraytwo);
         }
     }
 
-    static int[] merge(int[] a, int[] b) {
+    public int[] merge(int[] a, int[] b) {
         int aLen = a.length;
         int bLen = b.length;
         int c[] = new int[aLen + bLen];
@@ -49,4 +50,5 @@ public class mergeSort extends sort{
         }
         return c;
     }
+
 }
