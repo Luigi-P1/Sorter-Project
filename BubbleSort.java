@@ -1,5 +1,4 @@
-package com.sparta.lp.sortproject.SorterProject;
-
+package com.sparta.sorterproject.SorterProject;
 public class BubbleSort extends SortFactory {
     @Override
     public int[] GetSort(int[] array) {

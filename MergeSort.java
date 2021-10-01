@@ -1,5 +1,4 @@
-package com.sparta.lp.sortproject.SorterProject;
-
+package com.sparta.sorterproject.SorterProject;
 public class MergeSort extends SortFactory {
     @Override
      public int[] GetSort(int[] array) {

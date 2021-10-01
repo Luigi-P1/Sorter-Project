@@ -1,5 +1,4 @@
-package com.sparta.lp.sortproject.SorterProject;
-
+package com.sparta.sorterproject.SorterProject;
 import java.util.Scanner;
 
 public class Controller {
@@ -18,5 +17,4 @@ public class Controller {
         int choice = sorting.nextInt();
         return choice;
     }
-
 }
