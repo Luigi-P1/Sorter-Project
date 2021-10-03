@@ -26,8 +26,8 @@ public class Testing {
         int[] sortedArrayWithNegativeNums={-9,-5,-2,3,6,7};
         int[] arrayOfZero={0,0,0,0};
         SortFactory sorter=null;
-        for (int i=1;i<4;i++){
-            sorter= Model.sortchoice.sorts(i);
+        for (int i=1;i<6;i++){
+            sorter= Model.SortChoiceFactory.sorts(i);
             arrayNew=sorter.GetSort(standardArray);
             assertTrue(Arrays.equals(standardSortedArray,arrayNew));
             arrayNew=sorter.GetSort(arrayWithNegativeNums);
