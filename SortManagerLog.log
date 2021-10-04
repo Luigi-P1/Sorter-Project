@@ -1,3 +1,8 @@
 [INFO] 2021-10-04 16:41:32,600 Sorter application logger sortOutput Merge sort was picked.
 [INFO] 2021-10-04 16:41:32,692 Sorter application logger sortOutput Insertion sort was picked.
 [INFO] 2021-10-04 16:41:32,701 Sorter application logger sortOutput Bubble sort was picked.
+[INFO] 2021-10-04 17:18:15,666 Sorter application logger sortOutput Bubble sort was picked.
+[INFO] 2021-10-04 17:18:15,721 Sorter application logger sortOutput Merge sort was picked.
+[INFO] 2021-10-04 17:18:15,731 Sorter application logger sortOutput Quick sort was picked.
+[INFO] 2021-10-04 17:18:15,805 Sorter application logger sortOutput Insertion sort was picked.
+[INFO] 2021-10-04 17:18:15,807 Sorter application logger sortOutput Selection sort was picked.

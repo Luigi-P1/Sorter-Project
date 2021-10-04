@@ -25,19 +25,14 @@ public class Model {
     static String sortOutput(int choice){
         PropertyConfigurator.configure("log4j.properties");
         if (choice==1){
-            logger.info("Bubble sort was picked.");
             return "Bubble sort";
         }else if (choice==2){
-            logger.info("Merge sort was picked.");
             return "Merge sort";
         }else if (choice==3){
-            logger.info("Quick sort was picked.");
             return "Quick sort";
         }else if (choice==4){
-            logger.info("Insertion sort was picked.");
             return "Insertion sort";
         }else if (choice==5){
-            logger.info("Selection sort was picked.");
             return "Selection sort";
 
         }

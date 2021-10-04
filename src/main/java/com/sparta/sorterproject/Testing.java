@@ -3,6 +3,7 @@ package com.sparta.sorterproject;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
+import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -42,6 +43,14 @@ public class Testing {
         SortFactory sorter=Model.SortChoiceFactory.sorts(2);
 
         assertTrue(Model.duration(sorter,standardArray)>0);
+    }
+    @Test
+    public void SortOutput(){
+        List<String> sorts = Arrays.asList("Bubble sort", "Merge sort","Quick sort","Insertion sort","Selection sort",null);
+        for(int i=1;i<6;i++){
+            assertTrue(sorts.get(i-1).equals(Model.sortOutput(i)));
+        }
+        assertTrue(Model.sortOutput(6)==null);
     }
 
 }
