@@ -10,7 +10,8 @@ public class SelectionSort extends SortFactory{
             for (int j = i + 1; j < n; j++){
                 if (arr[j] < arr[min_idx]){
                     min_idx = j;
-                }}
+                }
+            }
             ArrayFunc.swap(arr,i,min_idx);
         }
     return arr;
