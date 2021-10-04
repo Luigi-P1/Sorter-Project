@@ -29,7 +29,7 @@ public class Controller {
                     "\r\n 3.Quick sort\r\n 4.Insertion sort\r\n 5.Selection sort");
             sorting = new Scanner(System.in);
             choice.add( sorting.next());
-            System.out.println("Use another sort? (y/n)");
+            System.out.println("Use another sort? (Type \"y\" for yes or anything else for no)");
             another= new Scanner(System.in);
             anotherSort=another.next();
             anotherSort=anotherSort.toLowerCase();

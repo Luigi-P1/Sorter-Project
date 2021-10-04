@@ -1,8 +1,6 @@
-[INFO] 2021-10-04 16:41:32,600 Sorter application logger sortOutput Merge sort was picked.
-[INFO] 2021-10-04 16:41:32,692 Sorter application logger sortOutput Insertion sort was picked.
-[INFO] 2021-10-04 16:41:32,701 Sorter application logger sortOutput Bubble sort was picked.
-[INFO] 2021-10-04 17:18:15,666 Sorter application logger sortOutput Bubble sort was picked.
-[INFO] 2021-10-04 17:18:15,721 Sorter application logger sortOutput Merge sort was picked.
-[INFO] 2021-10-04 17:18:15,731 Sorter application logger sortOutput Quick sort was picked.
-[INFO] 2021-10-04 17:18:15,805 Sorter application logger sortOutput Insertion sort was picked.
-[INFO] 2021-10-04 17:18:15,807 Sorter application logger sortOutput Selection sort was picked.
+
+[INFO] 2021-10-04 18:45:54,709 Sorter application logger finalArr Quick sort was picked.
+[INFO] 2021-10-04 18:45:54,795 Sorter application logger finalArr Bubble sort was picked.
+[INFO] 2021-10-04 18:45:54,816 Sorter application logger finalArr Selection sort was picked.
+[ERROR] 2021-10-04 18:46:47,016 Sorter application logger sorting Invalid sorter option was picked.
+[ERROR] 2021-10-04 18:47:53,602 Sorter application logger sorting java.lang.NullPointerException: Cannot invoke "com.sparta.sorterproject.SortFactory.GetSort(int[])" because "theFactory" is nullInvalid sorter option was picked.

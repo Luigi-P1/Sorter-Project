@@ -45,7 +45,7 @@ public class Model {
         }catch (NullPointerException|StackOverflowError npe) {
             System.err.println("Invalid option was chosen for the sorting method; unable to implement any further methods.");
             PropertyConfigurator.configure("log4j.properties");
-            logger.error("Invalid sorter option was picked.");
+            logger.error(npe+". Invalid option was picked.");
             System.exit(0);
         }
         return sortedArray;
